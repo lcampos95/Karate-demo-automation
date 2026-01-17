@@ -1,8 +1,8 @@
-package examples.users;
+package examples.Chucnorris;
 
 import com.intuit.karate.junit5.Karate;
 
-class UsersRunner {
+class chucknorrisrunner {
     
     @Karate.Test
     Karate testUsers() {
