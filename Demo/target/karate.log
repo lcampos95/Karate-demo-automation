@@ -1,0 +1,110 @@
+17:34:17.191 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:34:18.790 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:34:18.818 [main] ERROR com.intuit.karate - classpath:examples/chucknorris/chucknorris.feature:6
+Given "https://api.chucknorris.io/jokes/random"
+no step-definition method match found for: "https://api.chucknorris.io/jokes/random"
+classpath:examples/chucknorris/chucknorris.feature:6
+17:34:40.180 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:34:41.630 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:34:41.990 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:34:43.704 [main] DEBUG com.intuit.karate - response time in milliseconds: 1708
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:34:43 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=WEDXnmGd3qiOaRfQbn8Dm0r9P8Bw5ldzoWpidJWIjiI%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768689283"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=WEDXnmGd3qiOaRfQbn8Dm0r9P8Bw5ldzoWpidJWIjiI%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768689283"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=69,cfOrigin;dur=860
+1 < CF-RAY: 9bf95252bc065040-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:26.766831","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"WhjTkTXkTu6m_-ZTAW_9yQ","updated_at":"2020-01-05 13:42:26.766831","url":"https://api.chucknorris.io/jokes/WhjTkTXkTu6m_-ZTAW_9yQ","value":"Chuck Norris once farted in his sleep loud enough to awaken a sleeping volcano. Maui was then formed."}
+
+17:49:10.862 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:49:12.185 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:49:12.434 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:49:14.013 [main] DEBUG com.intuit.karate - response time in milliseconds: 1572
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:49:14 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=QScLUPMrcN%2BHLU%2Bz4P6g9oC9VSSOFP9m639Sq7uGViQ%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768690154"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=QScLUPMrcN%2BHLU%2Bz4P6g9oC9VSSOFP9m639Sq7uGViQ%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768690154"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=77,cfOrigin;dur=882
+1 < CF-RAY: 9bf96791ff381fe6-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:20.262289","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"4SG5VcE_QairyH_WkffUKA","updated_at":"2020-01-05 13:42:20.262289","url":"https://api.chucknorris.io/jokes/4SG5VcE_QairyH_WkffUKA","value":"Chuck Norris cuts his fingernails with a hatchet."}
+
+17:49:14.085 [main] ERROR com.intuit.karate - classpath:examples/chucknorris/chucknorris.feature:10
+And match response.value == "Chuck Norris once farted in his sleep loud enough to awaken a sleeping volcano. Maui was then formed."
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Chuck Norris cuts his fingernails with a hatchet.'
+  'Chuck Norris once farted in his sleep loud enough to awaken a sleeping volcano. Maui was then formed.'
+
+classpath:examples/chucknorris/chucknorris.feature:10
+17:50:28.929 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:50:30.151 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:50:30.365 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:50:31.255 [main] DEBUG com.intuit.karate - response time in milliseconds: 885
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:50:31 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=XGmymkNDSfcyWmnsdHQkNpttXEe%2BIt2MLg%2F5UaZDlQs%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768690231"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=XGmymkNDSfcyWmnsdHQkNpttXEe%2BIt2MLg%2F5UaZDlQs%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768690231"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=8,cfOrigin;dur=225
+1 < CF-RAY: 9bf969794eb38bc2-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:23.880601","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"ll_VrS-LQZ6OVGPccyCbgw","updated_at":"2020-01-05 13:42:23.880601","url":"https://api.chucknorris.io/jokes/ll_VrS-LQZ6OVGPccyCbgw","value":"Old Faithful is Chuck Norris' drainpipe"}
+
