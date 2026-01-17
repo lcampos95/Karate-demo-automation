@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"e40a16dd-9511-4f0a-8fb6-b4c1c9a0f9fa",karate_version:"1.5.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>examples.Chucknorris.Chucknorris</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2026-01-17 05:56:20 p. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>Validar API GET DE  CHUCKCHORRIS</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2:12]"><span>[2:12]</span> <span>Validar API GET DE  CHUCKCHORRIS</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">examples/Chucknorris/Chucknorris.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Prueba de APIS CHUCKNORRIS</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">Validar API GET DE  CHUCKCHORRIS</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1670</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://api.chucknorris.io/jokes/random&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">17:56:18.110 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1642</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">17:56:18.331 request:
+1 &gt; GET https://api.chucknorris.io/jokes/random
+1 &gt; Host: api.chucknorris.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:56:19.756 response time in milliseconds: 1422
+1 &lt; 200
+1 &lt; Date: Sat, 17 Jan 2026 22:57:51 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=rsz2QpFEUfHU%2FWBnxLFXzJeMHDfU7bBQQ%2B%2Fahzs7ku0%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768690671&quot;}],&quot;max_age&quot;:3600}
+1 &lt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=rsz2QpFEUfHU%2FWBnxLFXzJeMHDfU7bBQQ%2B%2Fahzs7ku0%3D&amp;sid=812dcc77-0bd0-43b1-a5f1-b25750382959&amp;ts=1768690671&quot;
+1 &lt; Server: cloudflare
+1 &lt; Vary: Origin
+1 &lt; Vary: Access-Control-Request-Method
+1 &lt; Vary: Access-Control-Request-Headers
+1 &lt; Via: 1.1 heroku-router
+1 &lt; X-Frame-Options: DENY
+1 &lt; cf-cache-status: DYNAMIC
+1 &lt; Server-Timing: cfCacheStatus;desc=&quot;DYNAMIC&quot;
+1 &lt; Server-Timing: cfEdge;dur=69,cfOrigin;dur=906
+1 &lt; CF-RAY: 9bf974308f4c2019-EZE
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+{&quot;categories&quot;:[],&quot;created_at&quot;:&quot;2020-01-05 13:42:28.984661&quot;,&quot;icon_url&quot;:&quot;https://api.chucknorris.io/img/avatar/chuck-norris.png&quot;,&quot;id&quot;:&quot;RUaK95R4SvONk9vkdhD0Wg&quot;,&quot;updated_at&quot;:&quot;2020-01-05 13:42:28.984661&quot;,&quot;url&quot;:&quot;https://api.chucknorris.io/jokes/RUaK95R4SvONk9vkdhD0Wg&quot;,&quot;value&quot;:&quot;Chuck Norris was recently seen taking his pet for a walk. His pet is a wolverine.&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.id == &quot;#string&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">21</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">17:56:19.804 [print] {
+  &quot;categories&quot;: [
+  ],
+  &quot;created_at&quot;: &quot;2020-01-05 13:42:28.984661&quot;,
+  &quot;icon_url&quot;: &quot;https://api.chucknorris.io/img/avatar/chuck-norris.png&quot;,
+  &quot;id&quot;: &quot;RUaK95R4SvONk9vkdhD0Wg&quot;,
+  &quot;updated_at&quot;: &quot;2020-01-05 13:42:28.984661&quot;,
+  &quot;url&quot;: &quot;https://api.chucknorris.io/jokes/RUaK95R4SvONk9vkdhD0Wg&quot;,
+  &quot;value&quot;: &quot;Chuck Norris was recently seen taking his pet for a walk. His pet is a wolverine.&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &quot;PRUEBA_SACTICFACTORIA&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">17:56:19.806 [print] PRUEBA_SACTICFACTORIA 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:12]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:12]</span>
+                <span class="scenario-name">Validar API GET DE  CHUCKCHORRIS</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>490</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://api.chucknorris.io/jokes/random&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13">17:56:19.822 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">486</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">17:56:19.826 request:
+1 &gt; GET https://api.chucknorris.io/jokes/random
+1 &gt; Host: api.chucknorris.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:56:20.309 response time in milliseconds: 482
+1 &lt; 200
+1 &lt; Date: Sat, 17 Jan 2026 22:57:51 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=rsz2QpFEUfHU%2FWBnxLFXzJeMHDfU7bBQQ%2B%2Fahzs7ku0%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768690671&quot;}],&quot;max_age&quot;:3600}
+1 &lt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=rsz2QpFEUfHU%2FWBnxLFXzJeMHDfU7bBQQ%2B%2Fahzs7ku0%3D&amp;sid=812dcc77-0bd0-43b1-a5f1-b25750382959&amp;ts=1768690671&quot;
+1 &lt; Server: cloudflare
+1 &lt; Vary: Origin
+1 &lt; Vary: Access-Control-Request-Method
+1 &lt; Vary: Access-Control-Request-Headers
+1 &lt; Via: 1.1 heroku-router
+1 &lt; X-Frame-Options: DENY
+1 &lt; cf-cache-status: DYNAMIC
+1 &lt; Server-Timing: cfCacheStatus;desc=&quot;DYNAMIC&quot;
+1 &lt; Server-Timing: cfEdge;dur=6,cfOrigin;dur=229
+1 &lt; CF-RAY: 9bf97438bcf5c772-EZE
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+{&quot;categories&quot;:[],&quot;created_at&quot;:&quot;2020-01-05 13:42:22.980058&quot;,&quot;icon_url&quot;:&quot;https://api.chucknorris.io/img/avatar/chuck-norris.png&quot;,&quot;id&quot;:&quot;PTQ40z0UTf2mSsF93JCdvA&quot;,&quot;updated_at&quot;:&quot;2020-01-05 13:42:22.980058&quot;,&quot;url&quot;:&quot;https://api.chucknorris.io/jokes/PTQ40z0UTf2mSsF93JCdvA&quot;,&quot;value&quot;:&quot;Chuck Norris and Super man had a bet,the bet was the looser had to wear his underwear out of his pants.&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref failed">15</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 500</span>
+      </div>
+    </div>
+    <div class="time-cell failed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">17:56:20.313 classpath:examples/Chucknorris/Chucknorris.feature:15
+Then status 500
+status code was: 200, expected: 500, response time in milliseconds: 482, url: https://api.chucknorris.io/jokes/random, response: 
+{&quot;categories&quot;:[],&quot;created_at&quot;:&quot;2020-01-05 13:42:22.980058&quot;,&quot;icon_url&quot;:&quot;https://api.chucknorris.io/img/avatar/chuck-norris.png&quot;,&quot;id&quot;:&quot;PTQ40z0UTf2mSsF93JCdvA&quot;,&quot;updated_at&quot;:&quot;2020-01-05 13:42:22.980058&quot;,&quot;url&quot;:&quot;https://api.chucknorris.io/jokes/PTQ40z0UTf2mSsF93JCdvA&quot;,&quot;value&quot;:&quot;Chuck Norris and Super man had a bet,the bet was the looser had to wear his underwear out of his pants.&quot;}
+classpath:examples/Chucknorris/Chucknorris.feature:15
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref skipped">16</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.id == &quot;#string&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref skipped">17</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref skipped">18</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print &quot;PRUEBA_SACTICFACTORIA&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

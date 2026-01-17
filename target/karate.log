@@ -383,3 +383,1609 @@
 }
 
 21:17:37.006 [main] INFO  com.intuit.karate - [print] created id is:  11 
+17:05:52.382 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:05:54.171 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:05:54.470 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:05:55.051 [main] DEBUG com.intuit.karate - response time in milliseconds: 577
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:07:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < Cache-Control: max-age=43200
+1 < etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < expires: -1
+1 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < pragma: no-cache
+1 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=9MW7LzEP4srBOOQpfP%2ByPPu24zh%2FArEdnXDzP6jyuKo%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1764369831"}],"max_age":3600}
+1 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=9MW7LzEP4srBOOQpfP%2ByPPu24zh%2FArEdnXDzP6jyuKo%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1764369831"
+1 < Server: cloudflare
+1 < vary: Origin, Accept-Encoding
+1 < via: 2.0 heroku-router
+1 < x-content-type-options: nosniff
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 997
+1 < x-ratelimit-reset: 1764369855
+1 < Age: 677
+1 < Accept-Ranges: bytes
+1 < cf-cache-status: HIT
+1 < Server-Timing: cfCacheStatus;desc="HIT"
+1 < Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+1 < CF-RAY: 9bf92a5e29a5892e-EZE
+1 < alt-svc: h3=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+17:05:55.120 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+2 > Accept-Encoding: gzip,deflate
+
+
+17:05:55.356 [main] DEBUG com.intuit.karate - response time in milliseconds: 235
+2 < 200
+2 < Date: Sat, 17 Jan 2026 22:07:26 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < access-control-allow-credentials: true
+2 < Cache-Control: max-age=43200
+2 < etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < expires: -1
+2 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+2 < pragma: no-cache
+2 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=5u%2BrFOdTKu8O4XZHAy5fxdAEYCKMUYYySwYDuZ%2FPquQ%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1764309965"}],"max_age":3600}
+2 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=5u%2BrFOdTKu8O4XZHAy5fxdAEYCKMUYYySwYDuZ%2FPquQ%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1764309965"
+2 < Server: cloudflare
+2 < vary: Origin, Accept-Encoding
+2 < via: 2.0 heroku-router
+2 < x-content-type-options: nosniff
+2 < x-powered-by: Express
+2 < x-ratelimit-limit: 1000
+2 < x-ratelimit-remaining: 932
+2 < x-ratelimit-reset: 1764309975
+2 < Age: 1376
+2 < Server-Timing: cfCacheStatus;desc="HIT"
+2 < Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+2 < cf-cache-status: HIT
+2 < CF-RAY: 9bf92a601a393557-EZE
+2 < alt-svc: h3=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+17:05:55.379 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:05:55.470 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+17:05:55.849 [main] DEBUG com.intuit.karate - response time in milliseconds: 378
+1 < 201
+1 < Date: Sat, 17 Jan 2026 22:07:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < access-control-expose-headers: Location
+1 < Cache-Control: no-cache
+1 < etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < expires: -1
+1 < location: https://jsonplaceholder.typicode.com/users/11
+1 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < pragma: no-cache
+1 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=vl7ROg9rBwLz8erkAw4jll4oT%2FHkkr9cskHeOifE2is%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1768687647"}],"max_age":3600}
+1 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=vl7ROg9rBwLz8erkAw4jll4oT%2FHkkr9cskHeOifE2is%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1768687647"
+1 < Server: cloudflare
+1 < vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < via: 2.0 heroku-router
+1 < x-content-type-options: nosniff
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 999
+1 < x-ratelimit-reset: 1768687682
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=3,cfOrigin;dur=143
+1 < CF-RAY: 9bf92a624f4c2025-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+17:05:55.854 [main] INFO  com.intuit.karate - [print] created id is:  11 
+17:22:02.160 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:22:03.739 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:22:04.118 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:22:05.117 [main] DEBUG com.intuit.karate - response time in milliseconds: 992
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:23:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < Cache-Control: max-age=43200
+1 < etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < expires: -1
+1 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < pragma: no-cache
+1 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=9MW7LzEP4srBOOQpfP%2ByPPu24zh%2FArEdnXDzP6jyuKo%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1764369831"}],"max_age":3600}
+1 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=9MW7LzEP4srBOOQpfP%2ByPPu24zh%2FArEdnXDzP6jyuKo%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1764369831"
+1 < Server: cloudflare
+1 < vary: Origin, Accept-Encoding
+1 < via: 2.0 heroku-router
+1 < x-content-type-options: nosniff
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 997
+1 < x-ratelimit-reset: 1764369855
+1 < Age: 1647
+1 < Accept-Ranges: bytes
+1 < cf-cache-status: HIT
+1 < Server-Timing: cfCacheStatus;desc="HIT"
+1 < Server-Timing: cfEdge;dur=3,cfOrigin;dur=0
+1 < CF-RAY: 9bf9420d08485777-EZE
+1 < alt-svc: h3=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+17:22:05.237 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+2 > Accept-Encoding: gzip,deflate
+
+
+17:22:05.482 [main] DEBUG com.intuit.karate - response time in milliseconds: 244
+2 < 200
+2 < Date: Sat, 17 Jan 2026 22:23:36 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < access-control-allow-credentials: true
+2 < Cache-Control: max-age=43200
+2 < etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < expires: -1
+2 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+2 < pragma: no-cache
+2 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=5u%2BrFOdTKu8O4XZHAy5fxdAEYCKMUYYySwYDuZ%2FPquQ%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1764309965"}],"max_age":3600}
+2 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=5u%2BrFOdTKu8O4XZHAy5fxdAEYCKMUYYySwYDuZ%2FPquQ%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1764309965"
+2 < Server: cloudflare
+2 < vary: Origin, Accept-Encoding
+2 < via: 2.0 heroku-router
+2 < x-content-type-options: nosniff
+2 < x-powered-by: Express
+2 < x-ratelimit-limit: 1000
+2 < x-ratelimit-remaining: 932
+2 < x-ratelimit-reset: 1764309975
+2 < Age: 2346
+2 < Server-Timing: cfCacheStatus;desc="HIT"
+2 < Server-Timing: cfEdge;dur=2,cfOrigin;dur=0
+2 < cf-cache-status: HIT
+2 < CF-RAY: 9bf9420f6bc183fc-EZE
+2 < alt-svc: h3=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+17:22:05.513 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:22:05.630 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+17:22:05.998 [main] DEBUG com.intuit.karate - response time in milliseconds: 367
+1 < 201
+1 < Date: Sat, 17 Jan 2026 22:23:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < access-control-expose-headers: Location
+1 < Cache-Control: no-cache
+1 < etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < expires: -1
+1 < location: https://jsonplaceholder.typicode.com/users/11
+1 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < pragma: no-cache
+1 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=X8jRZSYGTILtO9sEEevrtq8WBu%2FHKXtYvDpDa4X5pzM%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1768688617"}],"max_age":3600}
+1 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=X8jRZSYGTILtO9sEEevrtq8WBu%2FHKXtYvDpDa4X5pzM%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1768688617"
+1 < Server: cloudflare
+1 < vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < via: 2.0 heroku-router
+1 < x-content-type-options: nosniff
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 999
+1 < x-ratelimit-reset: 1768688642
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=2,cfOrigin;dur=143
+1 < CF-RAY: 9bf94211cea4a29b-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+17:22:06.005 [main] INFO  com.intuit.karate - [print] created id is:  11 
+17:23:51.750 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:23:53.334 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:23:53.699 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random/users
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:55.238 [main] DEBUG com.intuit.karate - response time in milliseconds: 1535
+1 < 404
+1 < Date: Sat, 17 Jan 2026 22:25:26 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=iZFB10oPB0VXt1AvLSnFteBhARkhR75VMpthbqnbRwM%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768688726"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=iZFB10oPB0VXt1AvLSnFteBhARkhR75VMpthbqnbRwM%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768688726"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=8,cfOrigin;dur=862
+1 < CF-RAY: 9bf944b7cdf3dfb2-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"timestamp":"2026-01-17T22:25:26.490Z","status":404,"error":"Not Found","path":"/jokes/random/users"}
+
+17:23:55.279 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:10
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1535, url: https://api.chucknorris.io/jokes/random/users, response: 
+{"timestamp":"2026-01-17T22:25:26.490Z","status":404,"error":"Not Found","path":"/jokes/random/users"}
+classpath:examples/Chucknorris/Chucknorris.feature:10
+17:23:55.325 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:23:55.385 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+17:23:55.930 [main] DEBUG com.intuit.karate - response time in milliseconds: 543
+1 < 201
+1 < Date: Sat, 17 Jan 2026 22:25:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < access-control-expose-headers: Location
+1 < Cache-Control: no-cache
+1 < etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < expires: -1
+1 < location: https://jsonplaceholder.typicode.com/users/11
+1 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < pragma: no-cache
+1 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=nUvhfuivS75E%2BCrx%2FB9h66%2FUaRMrmu%2FG6Pj4kpl%2Bof0%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1768688727"}],"max_age":3600}
+1 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=nUvhfuivS75E%2BCrx%2FB9h66%2FUaRMrmu%2FG6Pj4kpl%2Bof0%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1768688727"
+1 < Server: cloudflare
+1 < vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < via: 2.0 heroku-router
+1 < x-content-type-options: nosniff
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 999
+1 < x-ratelimit-reset: 1768688762
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=2,cfOrigin;dur=142
+1 < CF-RAY: 9bf944c0da48b567-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+17:23:55.938 [main] INFO  com.intuit.karate - [print] created id is:  11 
+17:24:47.565 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:24:49.181 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:24:49.655 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random/Chucknorris
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:51.208 [main] DEBUG com.intuit.karate - response time in milliseconds: 1550
+1 < 404
+1 < Date: Sat, 17 Jan 2026 22:26:22 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=e4ueFagwKR4mDhdsJulQDGgG9AyeOJSoT5yPb%2Fkk8fQ%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768688782"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=e4ueFagwKR4mDhdsJulQDGgG9AyeOJSoT5yPb%2Fkk8fQ%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768688782"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=66,cfOrigin;dur=904
+1 < CF-RAY: 9bf946151c1035c2-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"timestamp":"2026-01-17T22:26:22.474Z","status":404,"error":"Not Found","path":"/jokes/random/Chucknorris"}
+
+17:24:51.242 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:10
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1550, url: https://api.chucknorris.io/jokes/random/Chucknorris, response: 
+{"timestamp":"2026-01-17T22:26:22.474Z","status":404,"error":"Not Found","path":"/jokes/random/Chucknorris"}
+classpath:examples/Chucknorris/Chucknorris.feature:10
+17:24:51.266 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:24:51.326 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+17:24:51.705 [main] DEBUG com.intuit.karate - response time in milliseconds: 378
+1 < 201
+1 < Date: Sat, 17 Jan 2026 22:26:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < access-control-expose-headers: Location
+1 < Cache-Control: no-cache
+1 < etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < expires: -1
+1 < location: https://jsonplaceholder.typicode.com/users/11
+1 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < pragma: no-cache
+1 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=KMAqOLX9wVBRxp%2BNjwGOaCYCxltzYK3M7rZpsLJ1YhU%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1768688783"}],"max_age":3600}
+1 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=KMAqOLX9wVBRxp%2BNjwGOaCYCxltzYK3M7rZpsLJ1YhU%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1768688783"
+1 < Server: cloudflare
+1 < vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < via: 2.0 heroku-router
+1 < x-content-type-options: nosniff
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 999
+1 < x-ratelimit-reset: 1768688822
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=3,cfOrigin;dur=142
+1 < CF-RAY: 9bf9461d7943adae-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+17:24:51.714 [main] INFO  com.intuit.karate - [print] created id is:  11 
+17:26:13.112 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:26:14.553 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:26:14.876 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random/Chucknorris
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:26:16.444 [main] DEBUG com.intuit.karate - response time in milliseconds: 1564
+1 < 404
+1 < Date: Sat, 17 Jan 2026 22:27:47 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=ovnRuInzGuZCdMHq49C1IfpDViawJDl%2BB7d9yPXgXQk%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768688867"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=ovnRuInzGuZCdMHq49C1IfpDViawJDl%2BB7d9yPXgXQk%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768688867"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=72,cfOrigin;dur=885
+1 < CF-RAY: 9bf94829dd8c8bc1-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"timestamp":"2026-01-17T22:27:47.704Z","status":404,"error":"Not Found","path":"/jokes/random/Chucknorris"}
+
+17:26:16.474 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:10
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1564, url: https://api.chucknorris.io/jokes/random/Chucknorris, response: 
+{"timestamp":"2026-01-17T22:27:47.704Z","status":404,"error":"Not Found","path":"/jokes/random/Chucknorris"}
+classpath:examples/Chucknorris/Chucknorris.feature:10
+17:26:16.502 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:26:16.563 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+17:26:16.933 [main] DEBUG com.intuit.karate - response time in milliseconds: 370
+1 < 201
+1 < Date: Sat, 17 Jan 2026 22:27:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < access-control-expose-headers: Location
+1 < Cache-Control: no-cache
+1 < etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < expires: -1
+1 < location: https://jsonplaceholder.typicode.com/users/11
+1 < nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < pragma: no-cache
+1 < report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=m6s0lRG613vNtgZWPvG8xqgtOzwnb8smyf3ny8fD5Ak%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1768688868"}],"max_age":3600}
+1 < reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=m6s0lRG613vNtgZWPvG8xqgtOzwnb8smyf3ny8fD5Ak%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1768688868"
+1 < Server: cloudflare
+1 < vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < via: 2.0 heroku-router
+1 < x-content-type-options: nosniff
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 999
+1 < x-ratelimit-reset: 1768688882
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=2,cfOrigin;dur=141
+1 < CF-RAY: 9bf948322eb7c155-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+17:26:16.939 [main] INFO  com.intuit.karate - [print] created id is:  11 
+17:33:10.520 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:33:12.241 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:33:12.288 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:6
+Given URL https://api.chucknorris.io/jokes/random
+no step-definition method match found for: URL https://api.chucknorris.io/jokes/random
+classpath:examples/Chucknorris/Chucknorris.feature:6
+17:33:33.153 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:33:34.766 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:33:34.815 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:6
+Given URL "https://api.chucknorris.io/jokes/random"
+no step-definition method match found for: URL "https://api.chucknorris.io/jokes/random"
+classpath:examples/Chucknorris/Chucknorris.feature:6
+17:34:20.707 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:34:22.040 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:34:22.076 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:4
+Given URL "https://api.chucknorris.io/jokes/random"
+no step-definition method match found for: URL "https://api.chucknorris.io/jokes/random"
+classpath:examples/Chucknorris/Chucknorris.feature:4
+17:37:19.375 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:37:20.396 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:37:20.624 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:37:22.181 [main] DEBUG com.intuit.karate - response time in milliseconds: 1554
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:38:53 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=%2BmjbzU3DSQqRhfmi9285Nl4YsKOPYroslMiTqw0cOd8%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768689533"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=%2BmjbzU3DSQqRhfmi9285Nl4YsKOPYroslMiTqw0cOd8%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768689533"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=64,cfOrigin;dur=905
+1 < CF-RAY: 9bf9586abf009ce3-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:29.569033","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"hXaK3s8ORM6M7RHUFdNnqQ","updated_at":"2020-01-05 13:42:29.569033","url":"https://api.chucknorris.io/jokes/hXaK3s8ORM6M7RHUFdNnqQ","value":"In Highschool when Chuck Norris phone rang in class the teachers phone was confiscated"}
+
+17:39:03.408 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:39:04.383 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:39:04.623 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:39:06.005 [main] DEBUG com.intuit.karate - response time in milliseconds: 1379
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:40:37 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=8wLLhHeWoBNdSSfCqn8kNJawYTfFIiKOthZkxsmFAgQ%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768689637"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=8wLLhHeWoBNdSSfCqn8kNJawYTfFIiKOthZkxsmFAgQ%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768689637"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=43,cfOrigin;dur=919
+1 < CF-RAY: 9bf95af3adcf1ebd-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:25.099703","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"ek9Nok9aSPqwT-DcuSTAEA","updated_at":"2020-01-05 13:42:25.099703","url":"https://api.chucknorris.io/jokes/ek9Nok9aSPqwT-DcuSTAEA","value":"Chuck Norris frequently signs up for beginner karate classes so he can accidentally roundhouse kick kids in the neck."}
+
+17:39:06.032 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:7
+And messager "PRUEBA SACTICFACTORIA"
+no step-definition method match found for: messager "PRUEBA SACTICFACTORIA"
+classpath:examples/Chucknorris/Chucknorris.feature:7
+17:39:27.074 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:39:28.061 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:39:28.301 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:39:28.960 [main] DEBUG com.intuit.karate - response time in milliseconds: 657
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:41:00 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=EoWQ%2BabsnTmzTyrfkNVyqY1o%2F%2BtCO1UjtAMXeQLxER8%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768689660"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=EoWQ%2BabsnTmzTyrfkNVyqY1o%2F%2BtCO1UjtAMXeQLxER8%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768689660"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=5,cfOrigin;dur=229
+1 < CF-RAY: 9bf95b87ad43dd2e-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:26.447675","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"HsrXXjOOTnuIs5XAGyIAyA","updated_at":"2020-01-05 13:42:26.447675","url":"https://api.chucknorris.io/jokes/HsrXXjOOTnuIs5XAGyIAyA","value":"Chuck Norris knows the differance between a cow's tail and a beer tap handle."}
+
+17:39:28.985 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:7
+And message "PRUEBA SACTICFACTORIA"
+no step-definition method match found for: message "PRUEBA SACTICFACTORIA"
+classpath:examples/Chucknorris/Chucknorris.feature:7
+17:39:59.299 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:40:00.279 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:40:00.525 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:40:01.914 [main] DEBUG com.intuit.karate - response time in milliseconds: 1386
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:41:33 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=DgMrthm%2Fr1CzCeygMRTn0iki6fR99kQ8Px6Lq%2Bbi06Q%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768689693"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=DgMrthm%2Fr1CzCeygMRTn0iki6fR99kQ8Px6Lq%2Bbi06Q%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768689693"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=71,cfOrigin;dur=885
+1 < CF-RAY: 9bf95c512f296ccb-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:26.447675","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"e3n-xmY0Qoir2Mv0AKPQxg","updated_at":"2020-01-05 13:42:26.447675","url":"https://api.chucknorris.io/jokes/e3n-xmY0Qoir2Mv0AKPQxg","value":"The Kool-Aid Pitcherman busted through the wall of Chuck Norris' livingroom and said, \"OH NOOOOOOOO!\"."}
+
+17:40:01.941 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:7
+And message PRUEBA_SACTICFACTORIA
+no step-definition method match found for: message PRUEBA_SACTICFACTORIA
+classpath:examples/Chucknorris/Chucknorris.feature:7
+17:41:17.612 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:41:18.555 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:41:18.793 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:41:20.191 [main] DEBUG com.intuit.karate - response time in milliseconds: 1396
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:42:51 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=hWxoNmvIiaFfvOAHTZoUWrMz9oCF3PWpFeCPROE4cTA%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768689771"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=hWxoNmvIiaFfvOAHTZoUWrMz9oCF3PWpFeCPROE4cTA%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768689771"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=69,cfOrigin;dur=884
+1 < CF-RAY: 9bf95e3a585611ca-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:26.766831","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"-gOdC_s-QBOkPQ6ntQ-Xgg","updated_at":"2020-01-05 13:42:26.766831","url":"https://api.chucknorris.io/jokes/-gOdC_s-QBOkPQ6ntQ-Xgg","value":"The goverment called Chuck Norris to ask him to destroy an asteroid the size of Texas.Chuck Norris then rode on top of a rocket with nothing but a fork and a cherrybomb.Needless to say, the asteroid lost."}
+
+17:41:20.228 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:7
+And print PRUEBA_SACTICFACTORIA
+js failed:
+>>>>
+01: karate.log('[print]',PRUEBA_SACTICFACTORIA)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "PRUEBA_SACTICFACTORIA" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/Chucknorris/Chucknorris.feature:7
+17:41:31.638 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:41:32.652 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:41:32.946 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:41:34.728 [main] DEBUG com.intuit.karate - response time in milliseconds: 1780
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:43:06 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=7P8pxFV2A6yfyU5LdwsbwBFaFn%2Flv3hs4rfR9SX0q88%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768689785"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=7P8pxFV2A6yfyU5LdwsbwBFaFn%2Flv3hs4rfR9SX0q88%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768689785"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=83,cfOrigin;dur=885
+1 < CF-RAY: 9bf95e95291da79c-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:30.177068","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"8YhOu9pvQBGSsAeYto28ZQ","updated_at":"2020-01-05 13:42:30.177068","url":"https://api.chucknorris.io/jokes/8YhOu9pvQBGSsAeYto28ZQ","value":"when Chuck Norris says &#8220;i'm cold.&#8221; the whole world goes &#8220;A&#8230;&#8230;A.....ACHOOOOOO!!!!!!!&#8221;"}
+
+17:41:34.785 [main] INFO  com.intuit.karate - [print] PRUEBA_SACTICFACTORIA 
+17:43:39.561 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:43:40.652 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:43:40.897 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:43:42.548 [main] DEBUG com.intuit.karate - response time in milliseconds: 1646
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:45:13 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=WgmGXBxHcmLtBvWAlZp%2Bgy05hao18RW8g41U4zOVi4I%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768689913"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=WgmGXBxHcmLtBvWAlZp%2Bgy05hao18RW8g41U4zOVi4I%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768689913"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=5,cfOrigin;dur=885
+1 < CF-RAY: 9bf961b46b484af0-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:26.447675","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"KB_MN9FgQlKnUc2_BTz1AQ","updated_at":"2020-01-05 13:42:26.447675","url":"https://api.chucknorris.io/jokes/KB_MN9FgQlKnUc2_BTz1AQ","value":"Chuck Norris will never be on Mythbusters because everything Chuck does is not myth!"}
+
+17:43:42.594 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:6
+Then status 500
+status code was: 200, expected: 500, response time in milliseconds: 1646, url: https://api.chucknorris.io/jokes/random, response: 
+{"categories":[],"created_at":"2020-01-05 13:42:26.447675","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"KB_MN9FgQlKnUc2_BTz1AQ","updated_at":"2020-01-05 13:42:26.447675","url":"https://api.chucknorris.io/jokes/KB_MN9FgQlKnUc2_BTz1AQ","value":"Chuck Norris will never be on Mythbusters because everything Chuck does is not myth!"}
+classpath:examples/Chucknorris/Chucknorris.feature:6
+17:47:34.587 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:47:35.628 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:47:35.874 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:47:37.273 [main] DEBUG com.intuit.karate - response time in milliseconds: 1396
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:49:08 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=BvtWX5v4OUyDQYUSymX29DYLh6MwTL7L2yQssd%2BEEAk%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768690148"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=BvtWX5v4OUyDQYUSymX29DYLh6MwTL7L2yQssd%2BEEAk%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768690148"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=73,cfOrigin;dur=885
+1 < CF-RAY: 9bf9676f2de4892e-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:26.447675","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"svuOeXtzREqFXh1Q36GfDA","updated_at":"2020-01-05 13:42:26.447675","url":"https://api.chucknorris.io/jokes/svuOeXtzREqFXh1Q36GfDA","value":"Chuck Norris has never experienced failure, remorse, being wrong, pity or defeat, among other things."}
+
+17:47:37.302 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:6
+Then status 500
+status code was: 200, expected: 500, response time in milliseconds: 1396, url: https://api.chucknorris.io/jokes/random, response: 
+{"categories":[],"created_at":"2020-01-05 13:42:26.447675","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"svuOeXtzREqFXh1Q36GfDA","updated_at":"2020-01-05 13:42:26.447675","url":"https://api.chucknorris.io/jokes/svuOeXtzREqFXh1Q36GfDA","value":"Chuck Norris has never experienced failure, remorse, being wrong, pity or defeat, among other things."}
+classpath:examples/Chucknorris/Chucknorris.feature:6
+17:51:28.438 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:51:29.405 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:51:29.642 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:51:31.322 [main] DEBUG com.intuit.karate - response time in milliseconds: 1675
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:53:02 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=F78Ahgsqndrad%2F34BeapDFtQ7%2BFB0V5aBoWu9Tg%2FdFI%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768690382"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=F78Ahgsqndrad%2F34BeapDFtQ7%2BFB0V5aBoWu9Tg%2FdFI%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768690382"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=72,cfOrigin;dur=880
+1 < CF-RAY: 9bf96d25ed9aad71-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":["money"],"created_at":"2020-01-05 13:42:24.40636","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"gjcgdPlIRhGhXe5WmiOysw","updated_at":"2020-05-22 06:16:41.133769","url":"https://api.chucknorris.io/jokes/gjcgdPlIRhGhXe5WmiOysw","value":"A mugger thought he was going to take Chuck Norris' money. His funeral is tomorrow."}
+
+17:51:31.425 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:7
+And match response.id == "string"
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'gjcgdPlIRhGhXe5WmiOysw'
+  'string'
+
+classpath:examples/Chucknorris/Chucknorris.feature:7
+17:53:13.904 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:53:14.942 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:53:15.186 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:53:16.016 [main] DEBUG com.intuit.karate - response time in milliseconds: 825
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:54:47 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=wBjm5dZS9GL2%2FyaROFtFNS5%2Fn0xDdyvc%2FEupBuXWQwI%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768690487"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=wBjm5dZS9GL2%2FyaROFtFNS5%2Fn0xDdyvc%2FEupBuXWQwI%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768690487"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=7,cfOrigin;dur=228
+1 < CF-RAY: 9bf96fb8cc068e5b-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":["science"],"created_at":"2020-01-05 13:42:19.576875","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"vcj9kqsttjqxksyiytv11a","updated_at":"2020-01-05 13:42:19.576875","url":"https://api.chucknorris.io/jokes/vcj9kqsttjqxksyiytv11a","value":"When Chuck Norris falls in water, Chuck Norris doesn't get wet. Water gets Chuck Norris."}
+
+17:53:16.046 [main] INFO  com.intuit.karate - [print] {
+  "categories": [
+    "science"
+  ],
+  "created_at": "2020-01-05 13:42:19.576875",
+  "icon_url": "https://api.chucknorris.io/img/avatar/chuck-norris.png",
+  "id": "vcj9kqsttjqxksyiytv11a",
+  "updated_at": "2020-01-05 13:42:19.576875",
+  "url": "https://api.chucknorris.io/jokes/vcj9kqsttjqxksyiytv11a",
+  "value": "When Chuck Norris falls in water, Chuck Norris doesn't get wet. Water gets Chuck Norris."
+}
+ 
+17:53:16.065 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:8
+And match response.id == "string"
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'vcj9kqsttjqxksyiytv11a'
+  'string'
+
+classpath:examples/Chucknorris/Chucknorris.feature:8
+17:53:31.768 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:53:33.729 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:53:34.248 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:53:35.124 [main] DEBUG com.intuit.karate - response time in milliseconds: 869
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:55:06 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=SGJxBanG2Q3v5ZvUYgRCmV2hl0D1HjEto5K4N%2FO7%2BO8%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768690506"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=SGJxBanG2Q3v5ZvUYgRCmV2hl0D1HjEto5K4N%2FO7%2BO8%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768690506"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=2,cfOrigin;dur=229
+1 < CF-RAY: 9bf9703018feee13-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:19.324003","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"zQxnX6UUT8OmvDtPI2-FOg","updated_at":"2020-01-05 13:42:19.324003","url":"https://api.chucknorris.io/jokes/zQxnX6UUT8OmvDtPI2-FOg","value":"Chuck Norris gargles ball bearings."}
+
+17:53:35.215 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:7
+And match response.id == "string"
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'zQxnX6UUT8OmvDtPI2-FOg'
+  'string'
+
+classpath:examples/Chucknorris/Chucknorris.feature:7
+17:55:03.427 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:55:04.459 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:55:04.688 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:55:06.095 [main] DEBUG com.intuit.karate - response time in milliseconds: 1404
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:56:37 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=tulNgw%2FcOGYJ4e5FyDVBb5%2F8REJQwQ7Qcm%2BaUGIMF10%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768690597"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=tulNgw%2FcOGYJ4e5FyDVBb5%2F8REJQwQ7Qcm%2BaUGIMF10%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768690597"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=80,cfOrigin;dur=885
+1 < CF-RAY: 9bf972644be52569-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:28.664997","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"s4yF81kaTgy-T1JSFvSVBA","updated_at":"2020-01-05 13:42:28.664997","url":"https://api.chucknorris.io/jokes/s4yF81kaTgy-T1JSFvSVBA","value":"Chuck Norris is the only man ever to beat a brick wall in a game of tennis."}
+
+17:55:06.145 [main] INFO  com.intuit.karate - [print] {
+  "categories": [
+  ],
+  "created_at": "2020-01-05 13:42:28.664997",
+  "icon_url": "https://api.chucknorris.io/img/avatar/chuck-norris.png",
+  "id": "s4yF81kaTgy-T1JSFvSVBA",
+  "updated_at": "2020-01-05 13:42:28.664997",
+  "url": "https://api.chucknorris.io/jokes/s4yF81kaTgy-T1JSFvSVBA",
+  "value": "Chuck Norris is the only man ever to beat a brick wall in a game of tennis."
+}
+ 
+17:55:06.147 [main] INFO  com.intuit.karate - [print] PRUEBA_SACTICFACTORIA 
+17:56:17.151 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:56:18.108 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:56:18.331 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:56:19.756 [main] DEBUG com.intuit.karate - response time in milliseconds: 1422
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:57:51 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=rsz2QpFEUfHU%2FWBnxLFXzJeMHDfU7bBQQ%2B%2Fahzs7ku0%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768690671"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=rsz2QpFEUfHU%2FWBnxLFXzJeMHDfU7bBQQ%2B%2Fahzs7ku0%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768690671"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=69,cfOrigin;dur=906
+1 < CF-RAY: 9bf974308f4c2019-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:28.984661","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"RUaK95R4SvONk9vkdhD0Wg","updated_at":"2020-01-05 13:42:28.984661","url":"https://api.chucknorris.io/jokes/RUaK95R4SvONk9vkdhD0Wg","value":"Chuck Norris was recently seen taking his pet for a walk. His pet is a wolverine."}
+
+17:56:19.803 [main] INFO  com.intuit.karate - [print] {
+  "categories": [
+  ],
+  "created_at": "2020-01-05 13:42:28.984661",
+  "icon_url": "https://api.chucknorris.io/img/avatar/chuck-norris.png",
+  "id": "RUaK95R4SvONk9vkdhD0Wg",
+  "updated_at": "2020-01-05 13:42:28.984661",
+  "url": "https://api.chucknorris.io/jokes/RUaK95R4SvONk9vkdhD0Wg",
+  "value": "Chuck Norris was recently seen taking his pet for a walk. His pet is a wolverine."
+}
+ 
+17:56:19.806 [main] INFO  com.intuit.karate - [print] PRUEBA_SACTICFACTORIA 
+17:56:19.822 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:56:19.825 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:56:20.309 [main] DEBUG com.intuit.karate - response time in milliseconds: 482
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:57:51 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=rsz2QpFEUfHU%2FWBnxLFXzJeMHDfU7bBQQ%2B%2Fahzs7ku0%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768690671"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=rsz2QpFEUfHU%2FWBnxLFXzJeMHDfU7bBQQ%2B%2Fahzs7ku0%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768690671"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=6,cfOrigin;dur=229
+1 < CF-RAY: 9bf97438bcf5c772-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:22.980058","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"PTQ40z0UTf2mSsF93JCdvA","updated_at":"2020-01-05 13:42:22.980058","url":"https://api.chucknorris.io/jokes/PTQ40z0UTf2mSsF93JCdvA","value":"Chuck Norris and Super man had a bet,the bet was the looser had to wear his underwear out of his pants."}
+
+17:56:20.313 [main] ERROR com.intuit.karate - classpath:examples/Chucknorris/Chucknorris.feature:15
+Then status 500
+status code was: 200, expected: 500, response time in milliseconds: 482, url: https://api.chucknorris.io/jokes/random, response: 
+{"categories":[],"created_at":"2020-01-05 13:42:22.980058","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"PTQ40z0UTf2mSsF93JCdvA","updated_at":"2020-01-05 13:42:22.980058","url":"https://api.chucknorris.io/jokes/PTQ40z0UTf2mSsF93JCdvA","value":"Chuck Norris and Super man had a bet,the bet was the looser had to wear his underwear out of his pants."}
+classpath:examples/Chucknorris/Chucknorris.feature:15
