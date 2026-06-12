@@ -11,8 +11,9 @@ function fn() {
   if (env == 'dev') {
     // customize
     // e.g. config.foo = 'bar';
-  } else if (env == 'e2e') {
-    // customize
+    hostherokuapp = 'https://restful-booker.herokuapp.com';
+  } else if (env == 'stg') {
+    hostherokuapp = 'https://stg-booker.herokuapp.com';
   }
   return config;
 }
